@@ -9,7 +9,7 @@
 
 .entry > img
 {
-    width: max(33%, 500px);
+    width: max(33%, 750px);
     height: 100%;
     border-radius: 15px;
 }
@@ -36,7 +36,7 @@
 
 .entry--gmaps > a
 {
-    font-size: max(12px, 1.5vmin);
+    font-size: max(10px, 1.5vmin);
     color: rgb(229,229,229);
     margin-left: 1.5vmin;
 }
@@ -51,4 +51,19 @@ h1
 {
     font-size: 4vmin;
     margin-top: 1vh;
+    margin-bottom: 0px;
+
+}
+
+.entry--date
+{
+    margin-top: 1vmin;
+    font-size: max(12px, 2.25vmin);
+    font-weight: bold;
+}
+
+.entry--desc
+{
+    font-size: 18px;
+    margin-right: 10%;
 }
