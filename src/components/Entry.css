@@ -1,0 +1,54 @@
+.entry 
+{
+    margin: 5vmin;
+    display: flex;
+    color: white;
+    gap: 3vmin;
+    height: 33vh;
+}
+
+.entry > img
+{
+    width: max(33%, 500px);
+    height: 100%;
+    border-radius: 15px;
+}
+
+.entry--content
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.entry--gmaps
+{
+    display: flex;
+    align-items: center;
+}
+
+.entry--gmaps > p
+{
+    margin-left: 1vmin;
+    font-weight: bold;
+    font-size: max(14px, 1.75vmin);
+    letter-spacing: 3px;
+}
+
+.entry--gmaps > a
+{
+    font-size: max(12px, 1.5vmin);
+    color: rgb(229,229,229);
+    margin-left: 1.5vmin;
+}
+
+.icon
+{
+    height: 2.5vmin;
+    fill: rgb(245,90,90);
+}
+
+h1
+{
+    font-size: 4vmin;
+    margin-top: 1vh;
+}
