@@ -5,11 +5,14 @@
     color: white;
     gap: 3vmin;
     height: 33vh;
+    overflow-y: auto;
+    overflow-x: scroll;
 }
 
 .entry > img
 {
-    width: max(33%, 750px);
+    max-width: min(750px, 25vw);
+    min-width: min(750px, 25vw);
     height: 100%;
     border-radius: 15px;
 }
@@ -30,13 +33,13 @@
 {
     margin-left: 1vmin;
     font-weight: bold;
-    font-size: max(14px, 1.75vmin);
+    font-size: max(9px, 1.75vmin);
     letter-spacing: 3px;
 }
 
 .entry--gmaps > a
 {
-    font-size: max(10px, 1.5vmin);
+    font-size: max(12px, 1.5vmin);
     color: rgb(229,229,229);
     margin-left: 1.5vmin;
 }
