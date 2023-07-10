@@ -12,9 +12,8 @@ export default function Entry(props)
                     <a href={props.item.url}>View on Google Maps</a>
                 </div>
                 <h1> {props.item.title} </h1>
-                <p> {props.item.desc} </p>
-                <p className='entry--start_date'>{props.item.start}</p>
-                <p className='entry--end_date'>{props.item.end}</p>
+                <p className='entry--date'>{props.item.start} - {props.item.end}</p>
+                <p className='entry--desc'> {props.item.desc} </p>
             </div>
         </div>
     )    
