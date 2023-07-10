@@ -1,0 +1,20 @@
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(239,66,73);
+    gap: 1vmin;
+}
+
+.navbar--text
+{
+    font-size: 3.5vmin;
+    font-weight: 400;
+}
+
+.navbar--svg
+{
+    width: 4vmin;
+    height: auto;    
+}
